@@ -1,0 +1,23 @@
+/* body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+body {
+  margin: 0;
+}
+
+#myBox{
+  background-color: lightblue;
+  width: 200px;
+  height: 200px;
+  font-size: 7.5rem;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}

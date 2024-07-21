@@ -71,7 +71,7 @@ let buttons = document.querySelectorAll(".myButtons");
 
 buttons.forEach(button => {
   button.addEventListener("dblclick", (event) => {
-    event.target.remove(); //But still 4 elements in the DOM, You need to update the buttons. that why you use let...
+    event.target.remove(); //But still 4 elements in the DOM, You need to update the buttons. that why you use declare it by let...
 
     buttons = document.querySelectorAll(".myButtons"); //this reasign. to remove permanently in the DOM.
     console.log(buttons);

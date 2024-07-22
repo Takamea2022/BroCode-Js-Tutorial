@@ -40,7 +40,6 @@ function playGame(playerChoice) {
         computerScoreDisplay.textContent = computerScore;
       }
   }
-
   playerDisplay.textContent = `Player: ${playerChoice}`;
   computerDisplay.textContent = `Computer: ${computerChoice}`;  
   resultDisplay.textContent = result;
